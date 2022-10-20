@@ -1,0 +1,170 @@
+<!doctype html>
+
+<html lang="en">
+
+<head th:replace="snippets.html :: name_head"></head>
+
+<body>
+
+<nav th:replace="snippets.html :: name_app_navbar"></nav>
+
+<div class="container">
+
+    <h3>Orders</h3>
+    <hr>
+    <!-- Top row with form-->
+    <div class="row">
+        <div class="col-12">
+            <form class="form-inline" id="order-form">
+                <div class="form-group mb-3 w-50">
+                    <label for="client_dropdown" class="col-sm-2 col-form-label">Client</label>
+                    <div class="col-sm-20">
+                        <select class="form-select form-control col-sm-30" name="clientName" aria-label="Select Client" id="client_dropdown" required>
+                            <option value="" disabled selected>Select Client</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group mb-3 w-50">
+                    <label for="customer_dropdown" class="col-sm-2 col-form-label">Customer</label>
+                    <div class="col-sm-20">
+                        <select class="form-select form-control col-sm-30" name="customerName" aria-label="Select Customer" id="customer_dropdown" required>
+                            <option value="" disabled selected>Select Customer</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group mb-3 w-50 order-file">
+
+                    <div class="custom-file col-sm-20">
+                        <label class="col-sm-20 custom-file-label" for="orderFile" id="orderFileName">Choose file</label>
+                        <input type="file" class="form-control-file custom-file-input" id="orderFile" required>
+                        <a th:href="@{/sample/order.tsv}" target="_blank">Download Sample</a>
+                    </div>
+                </div>
+            </form>
+            <button class="btn btn-outline-primary page-button" id="process-data">Add Order</button>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- Blank Row -->
+    <div class="row">
+        &nbsp;
+    </div>
+    <div class="row">
+
+        <!-- Table -->
+        <div class="col-12">
+            <table class="table table-striped table-hover" id="order-table">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Client</th>
+                    <th scope="col">Customer</th>
+                    <th scope="col">Channel</th>
+                    <th scope="col">Chan Or.ID</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <!-- order View Modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="view-order-modal">
+        <div class="modal-dialog mw-100 w-75" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Order Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Table -->
+                        <div class="col-12">
+                            <table class="table table-striped table-hover" id="order-item-table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Client</th>
+                                    <th scope="col">Cl.Sku</th>
+                                    <th scope="col">Ord.Quant.</th>
+                                    <th scope="col">All.Quant.</th>
+                                    <th scope="col">Full.Quant.</th>
+                                    <th scope="col">Sell.Price</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="modal w-100" tabindex="-1" role="dialog" id="view-fullfilled-order-modal">
+    <div class="modal-dialog mw-100 w-75" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Order Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <!-- Table -->
+                    <div class="col-12">
+                        <table class="table table-striped table-hover" id="view-order-item-table">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Client</th>
+                                <th scope="col">Cl.Sku</th>
+                                <th scope="col">Ord.Quant.</th>
+                                <th scope="col">All.Quant.</th>
+                                <th scope="col">Full.Quant.</th>
+                                <th scope="col">Sell.Price</th>
+                                <th scope="col">Amount</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="float-right bg-light p-2 " >
+                <label for="total">Total Amount :</label>
+                <span class="col-sm-10" id = "total" name = "total"></span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div> <!-- Container end-->
+
+<footer th:replace="snippets.html :: name_footer"></footer>
+
+<script th:src="@{/static/orders.js}"/></script>
+<script th:src="@{/static/app.js}"/></script>
+<script th:src="@{/static/notify.js}"/></script>
+<script th:src="@{/static/notify.min.js}"/></script>
+
+</body>
+
+</html>

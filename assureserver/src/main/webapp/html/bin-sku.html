@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="en">
+
+<head th:replace="snippets.html :: name_head"></head>
+
+<body>
+
+<nav th:replace="snippets.html :: name_app_navbar"></nav>
+
+<div class="container">
+
+    <h3>Bin-Skus</h3>
+    <hr>
+    <div class="row">
+        &nbsp;
+    </div>
+    <!-- Top row with form-->
+    <div class="row">
+        <div class="col-12">
+            <form class="form-inline" id="bin-sku-form">
+                <div class="form-group mb-3 w-50 bin-sku-file">
+
+                    <div class="custom-file col-sm-20">
+                        <label class="col-sm-20 custom-file-label" for="bin-skuFile" id="bin-skuFileName">Choose file</label>
+                        <input type="file" class="form-control-file custom-file-input" id="bin-skuFile" required>
+                        <a th:href="@{/sample/bin-sku.tsv}" target="_blank">Download Sample</a>
+                    </div>
+                </div>
+                <div class="form-group mb-3 w-50">
+                    <label for="client_dropdown" class="col-sm-2 col-form-label">Client</label>
+                    <div class="col-sm-20">
+                        <select class="form-select form-control col-sm-30" name="client" aria-label="Select Client" id="client_dropdown" required>
+                            <option value="" disabled selected>Select Client</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <button class="btn btn-outline-primary page-button" id="process-data">Upload</button>
+        </div>
+    </div>
+
+
+    <!-- Blank Row -->
+    <div class="row">
+        &nbsp;
+    </div>
+    <div class="row">
+
+        <!-- Table -->
+        <div class="col-12">
+            <table class="table table-striped" id="bin-sku-table">
+                <thead>
+                <tr>
+                    <th scope="col">BinID</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Client</th>
+                    <th scope="col">ClSKU</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <!-- bin-sku Edit Modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="edit-bin-sku-modal">
+        <div class="modal-dialog mw-100 w-75" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit bin-sku</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-inline" id="bin-sku-edit-form">
+                        <div class="form-group">
+                            <label for="binId" class="col-sm-2 col-form-label">BinId</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" name="binId" id = "binId" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="productName" class="col-sm-2 col-form-label">BinId</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" name="productName" id = "productName" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="clientName" class="col-sm-2 col-form-label">Client</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" name="clientName" id = "clientName" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="clientSkuId" class="col-sm-2 col-form-label">ClientSKU</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" name="clientSkuId" id = "clientSkuId" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity" class="col-sm-2 col-form-label">Quantity</label>
+                            <div class="col-sm-10">
+                                <input type = "text" class="form-control" name="quantity" id = "quantity">
+                            </div>
+                        </div>
+                        <input type="hidden" name="id">
+                        <input type="hidden" name="globalSkuId">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-outline-primary" id="update-bin-sku">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> <!-- Container end-->
+
+<footer th:replace="snippets.html :: name_footer"></footer>
+
+<script th:src="@{/static/bin-sku.js}"/></script>
+<script th:src="@{/static/notify.js}"/></script>
+<script th:src="@{/static/notify.min.js}"/></script>
+
+</body>
+
+</html>

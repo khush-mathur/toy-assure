@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+
+<head th:replace="snippets.html :: name_head"></head>
+
+<body>
+
+<nav th:replace="snippets.html :: name_app_navbar"></nav>
+
+<div class="container">
+
+<h3>Home</h3>
+	<hr>
+	<div>
+		&nbsp;
+	</div>
+
+ <!-- Top row with form-->
+<div class="row">
+	 <div class="col-2">
+	 	<a th:href="@{/ui/user}" title="Brand"><i>USER</i> </a>
+	 </div>	
+	 <div class="col-2">
+	 	<a th:href="@{/ui/product}" title="Product"> <i>PRODUCT</i> </a>
+	 </div>
+	<div class="col-2">
+		<a th:href="@{/ui/bin}" title="Product"> <i>BIN</i> </a>
+	</div>
+	<div class="col-2">
+		<a th:href="@{/ui/bin-sku}" title="Product"> <i>BIN-SKU</i> </a>
+	</div>
+	<div class="col-2">
+		<a th:href="@{/ui/inventory}" title="Inventory"> <i>INVENTORY</i> </a>
+	</div>
+	<div class="col-2">
+		<a th:href="@{/ui/channel}" title="Channel"> <i>CHANNEL</i> </a>
+	</div>
+	<div class="col-2">
+	<a th:href="@{/ui/channel-listing}" title="Channel-Listing"> <i>CHANNEL-LISTING</i> </a>
+	</div>
+	<div class="col-2">
+		<a th:href="@{/ui/order}" title="Orders"> <i>ORDER</i> </a>
+	</div>
+</div> 
+
+
+
+</div> <!-- Container end-->
+
+<footer th:replace="snippets.html :: name_footer"></footer>
+<script th:src="@{/static/notify.js}"/></script>
+<script th:src="@{/static/notify.min.js}"/></script>
+
+
+</body>	
+
+</html>

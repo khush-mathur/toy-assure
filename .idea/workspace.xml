@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5a37b9e-e258-4900-a7c3-83ea48478182" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2F1EdAhe9MlcOsbNEGi8PFi5uc7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "last_opened_file_path": "/Users/khushmathur/IdeaProjects/toy-assure/assureserver/src/test/java/com/increff",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assureserver/src/test/java/com/increff" />
+      <recent name="$PROJECT_DIR$/assureserver/src/test/resources/com/increff" />
+      <recent name="$PROJECT_DIR$/assureserver/src/main/webapp/sample" />
+      <recent name="$PROJECT_DIR$/assureserver/src/main/webapp/static" />
+      <recent name="$PROJECT_DIR$/assureserver/src/main/webapp/html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/channel" />
+      <recent name="$PROJECT_DIR$/assureserver/src/main" />
+      <recent name="$PROJECT_DIR$/assureserver/src/main/resources/com/increff/pos" />
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.increff.model.data" />
+      <recent name="com.increff.controller" />
+      <recent name="com.increff.model.form" />
+      <recent name="com.increff.dao" />
+      <recent name="com.increff.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.assureserver [jetty:run]">
+    <configuration name="Unit tests" type="JUnit" factoryName="JUnit">
+      <module name="assureserver" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PACKAGE_NAME" value="com.increff.dto" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="assureserver [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/assureserver" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="commons [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/commons" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Unit tests" />
+      <item itemvalue="Maven.assureserver [jetty:run]" />
+      <item itemvalue="Maven.commons [clean,install]" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5a37b9e-e258-4900-a7c3-83ea48478182" name="Changes" comment="" />
+      <created>1663651276648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663651276648</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/main/java/com/increff/assureserver" />
+      <path value="$PROJECT_DIR$/src/main/java/com/increff/channel" />
+    </ignored-roots>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/toy_assure$BinSkuDtoTest_binSkuUpdate.ic" NAME="BinSkuDtoTest.binSkuUpdate Coverage Results" MODIFIED="1665969930635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$ChannelDtoTest.ic" NAME="ChannelDtoTest Coverage Results" MODIFIED="1665963090471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$ChannelListingDtoTest_createProductWInvalidInput.ic" NAME="ChannelListingDtoTest.createProductWInvalidInput Coverage Results" MODIFIED="1665962848375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$UserDtoTest.ic" NAME="UserDtoTest Coverage Results" MODIFIED="1665963027296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$BinServiceTest.ic" NAME="BinServiceTest Coverage Results" MODIFIED="1665881670348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$ChannelServiceTest.ic" NAME="ChannelServiceTest Coverage Results" MODIFIED="1665925207860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$InventoryServiceTest_updateStock.ic" NAME="InventoryServiceTest.updateStock Coverage Results" MODIFIED="1665888480359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$ProductDtoTest.ic" NAME="ProductDtoTest Coverage Results" MODIFIED="1665963057515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$InventoryServiceTest.ic" NAME="InventoryServiceTest Coverage Results" MODIFIED="1665886355665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$BinSkuDtoTest_binSkuAdd.ic" NAME="BinSkuDtoTest.binSkuAdd Coverage Results" MODIFIED="1665971185056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$ChannelListingDtoTest.ic" NAME="ChannelListingDtoTest Coverage Results" MODIFIED="1665962927481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$OrderDtoTest_channelOrderCreate.ic" NAME="OrderDtoTest.channelOrderCreate Coverage Results" MODIFIED="1665981132094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$OrderDtoTest_orderAllocate.ic" NAME="OrderDtoTest.orderAllocate Coverage Results" MODIFIED="1665978584568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$OrderDtoTest_generateInvoice.ic" NAME="OrderDtoTest.generateInvoice Coverage Results" MODIFIED="1665984019302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$ChannelListingServiceTest.ic" NAME="ChannelListingServiceTest Coverage Results" MODIFIED="1665928262824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$InventoryServiceTest_fullfill.ic" NAME="InventoryServiceTest.fullfill Coverage Results" MODIFIED="1665887758598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$ProductDtoTest_createProductWInvalidInput.ic" NAME="ProductDtoTest.createProductWInvalidInput Coverage Results" MODIFIED="1665920653799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$BinDtoTest.ic" NAME="BinDtoTest Coverage Results" MODIFIED="1665962994544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$BinSkuDtoTest.ic" NAME="BinSkuDtoTest Coverage Results" MODIFIED="1665971219971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$OrderDtoTest.ic" NAME="OrderDtoTest Coverage Results" MODIFIED="1665984079411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$Unit_tests.ic" NAME="Unit tests Coverage Results" MODIFIED="1666000714311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/toy_assure$BinSkuServiceTest.ic" NAME="BinSkuServiceTest Coverage Results" MODIFIED="1665881723002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$OrderDtoTest_orderFullfill.ic" NAME="OrderDtoTest.orderFullfill Coverage Results" MODIFIED="1665979117592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$OrderDtoTest_binSkuAdd.ic" NAME="OrderDtoTest.binSkuAdd Coverage Results" MODIFIED="1665975764272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$ProductDtoTest_createProductWInvalidClient.ic" NAME="ProductDtoTest.createProductWInvalidClient Coverage Results" MODIFIED="1665918916557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.increff.dto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/toy_assure$ChannelListingServiceTest_getListingById_and_1_more.ic" NAME="ChannelListingServiceTest,getListingById and 1 more Coverage Results" MODIFIED="1665928117755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

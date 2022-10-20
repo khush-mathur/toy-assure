@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en">
+
+<head th:replace="snippets.html :: name_head"></head>
+
+<body>
+
+<nav th:replace="snippets.html :: name_app_navbar"></nav>
+
+<div class="container">
+
+    <h3>Channel Listing</h3>
+    <hr>
+    <div class="row">
+        &nbsp;
+    </div>
+    <!-- Top row with form-->
+    <div class="row">
+        <div class="col-12">
+            <form class="form-inline" id="channel-listing-form">
+                <div class="form-group mb-3 w-50">
+                    <label for="client_dropdown" class="col-sm-2 col-form-label">Client</label>
+                    <div class="col-sm-20">
+                        <select class="form-select form-control col-sm-30" name="clientName" aria-label="Select Client" id="client_dropdown" required>
+                            <option value="" disabled selected>Select Client</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group mb-3 w-50">
+                    <label for="channel_dropdown" class="col-sm-2 col-form-label">Channel</label>
+                    <div class="col-sm-20">
+                        <select class="form-select form-control col-sm-30" name="channelName" aria-label="Select Channel" id="channel_dropdown" required>
+                            <option value="" disabled selected>Select Channel</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group mb-3 w-50 channel-listing-file">
+
+                    <div class="custom-file col-sm-20">
+                        <label class="col-sm-20 custom-file-label" for="channel-listingFile" id="channel-listingFileName">Choose file</label>
+                        <input type="file" class="form-control-file custom-file-input" id="channel-listingFile" required>
+                        <a th:href="@{/sample/channel-listing.tsv}" target="_blank">Download Sample</a>
+                    </div>
+                </div>
+            </form>
+            <button class="btn btn-outline-primary page-button" id="process-data">Upload</button>
+        </div>
+    </div>
+
+
+    <!-- Blank Row -->
+    <div class="row">
+        &nbsp;
+    </div>
+    <div class="row">
+
+        <!-- Table -->
+        <div class="col-12">
+            <table class="table table-striped" id="channel-listing-table">
+                <thead>
+                <tr>
+                    <th scope="col">ChanSKuID</th>
+                    <th scope="col">ChanName</th>
+                    <th scope="col">Client</th>
+                    <th scope="col">CliSKU</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+
+</div> <!-- Container end-->
+
+<footer th:replace="snippets.html :: name_footer"></footer>
+
+<script th:src="@{/static/channel-listing.js}"/></script>
+<script th:src="@{/static/notify.js}"/></script>
+<script th:src="@{/static/notify.min.js}"/></script>
+
+</body>
+
+</html>
